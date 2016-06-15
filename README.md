@@ -35,13 +35,9 @@ Open ./data/config.lua and add your ID to the "sudo_users" section in the follow
 
 ### Telegram channels:
 
-Arabic: [@iq_dev8](http://telegram.me/iq_dev8)
+Arabic: [@ofuck](http://telegram.me/ROMANCYAT_IQ)
 
 
-# Speclal thanks For : 
-
-@iq_plus
-
-@HackeD_o
+#ccaliraq
 
 

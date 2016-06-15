@@ -1,11 +1,5 @@
 --[[ 
-▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
-▀▄ ▄▀                                      ▀▄ ▄▀ 
-▀▄ ▄▀    BY SAJJAD NOORI                   ▀▄ ▄▀ 
-▀▄ ▄▀     BY SAJAD NOORI (@SAJJADNOORI)    ▀▄ ▄▀ 
-▀▄ ▄▀ JUST WRITED BY SAJJAD NOORI          ▀▄ ▄▀   
-▀▄ ▄▀          Orders  : الاوامر            ▀▄ ▄▀ 
-▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
+
 --]]
 local function check_member_super(cb_extra, success, result)
   local receiver = cb_extra.receiver
@@ -47,7 +41,7 @@ local function check_member_super(cb_extra, success, result)
       save_data(_config.moderation.data, data)
 	  local text = '✔️ تمً تًفعَـيل ألمَجمَوَعـه ✔️.'
       return reply_msg(msg.id, text, ok_cb, false)
-    end
+    end 
   end
 end
 
@@ -2048,4 +2042,3 @@ return {
   pre_process = pre_process
 }
 --End supergrpup.lua
---By @SAJJADNOORI
